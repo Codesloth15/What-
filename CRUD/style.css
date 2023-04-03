@@ -1,0 +1,254 @@
+.form-create {
+min-height: 400px;
+  max-width: 500px;
+  height: 70%;
+  margin: auto;
+  padding: 50px;
+  background-color: none;
+  border-radius: 30px 30px 30px 30px;
+}.buttons-alinement{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; 
+}a{
+  text-decoration: none;
+}
+
+/*Buton*/
+.Update-button-login{
+  max-width: 90%;
+  height: 50px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+font-size: 15px;
+font-weight: bold;
+border-radius: 10px 10px 10px 10px;
+border: none;
+color:rgba(65, 63, 63, 0.849);
+}
+.Login-button-login{
+  max-width: 90%;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+font-size: 15px;
+font-weight: bold;
+border-radius: 10px 10px 10px 10px;
+border: none;
+color:rgba(255, 255, 255, 0.849);
+}
+.Submit-button-login{
+  margin-right: 20px;
+  max-width: 90%;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+font-size: 15px;
+font-weight: bold;
+border-radius: 10px 10px 10px 10px;
+border: none;
+color:rgba(255, 255, 255, 0.849);
+}
+
+/*Submit*/
+.formButton{
+  width: 120px;
+  height: 35px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  border:2px solid black;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}.formButton:hover{
+  width: 120px;
+  height: 35px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: rgb(0, 0, 0);
+  border:2px solid black;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}.textS{
+  width: 500px;
+  height: 30px;
+  border-radius: 3px 3px 3px 3px;
+  margin-top: 20px;
+
+}
+  .desc{
+      width: 500px;
+      height: 30px;
+      border-radius: 3px 3px 3px 3px;
+      border:2px solid black;
+      margin-top: 20px;
+  }
+  form{
+      width: 600px;
+      text-align: left;
+      padding: 10px;
+  }
+  .card-comment {
+      font-size: 25px;
+      margin-top: 70px;
+      color: rgba(65, 63, 63, 0.849);
+      text-align: justify;
+      padding: 20px;
+      word-break: break-all;
+  }
+
+  .card-title {
+      font-size: 25px;
+      font-weight: bold;
+      float: left;
+  }
+
+  .Links {
+      text-align: left;
+      float: left;
+      width: 200px;
+
+  }
+
+  .Idea {
+      display: inline-block;
+      margin: auto;
+      margin-bottom: 200px;
+    
+  }
+
+  .card {
+      min-height: 200px;
+      margin: auto;
+      width: 550px;
+      margin-top: 50px;
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 5px 5px 5px 5px;
+  }  .card:hover{
+    min-height: 200px;
+    margin: auto;
+    width: 660px;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow:  7px 7px 5px 5px rgb(87, 87, 87) ;
+    transition: 0.2s ease-in-out;
+}
+  @media(min-width:1000px){
+      body {
+      margin-right: 300px;
+      margin-left: 300px;
+      text-align: center;
+      
+  }    .card {
+      min-height: 200px;
+      margin: auto;
+      width: 600px;
+      margin-top: 50px;
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 5px 5px 5px 5px;
+  }.Links h2{
+      font-size: 20px;
+   color: dimgrey;
+   font-weight: bolder;
+   cursor: pointer;
+   
+  }.Links h2:hover{
+      font-size: 25px;
+   color: black;
+   font-weight: bolder;
+   cursor: pointer;
+  }
+
+
+}
+  body {
+      text-align: center;
+  }
+
+  .logo {
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+      float: left;
+
+  }
+
+  .content {
+      width: 100%;
+      height: 1200px;
+  }
+
+  .nav-bar {
+      width: 100%;
+      height: 120px;
+  }
+
+  .nav-container {
+      float: right;
+      margin-right: 20px;
+      padding: 20px;
+  }
+
+  .nav-container input {
+      width: 120px;
+      height: 35px;
+      margin: 10px;
+      margin-top: 30px;
+      border-radius: 5px 5px 5px 5px;
+  }
+
+  .Submit {
+      background-color: black;
+      color: white;
+  }
+  .Submit:hover{
+      background-color: white;
+      border: 2px solid black;
+      color:black;
+  }.Links h1{
+      font-size: 18px;
+   color: dimgrey;
+  }.Links h2{
+      font-size: 20px;
+   color: dimgrey;
+   font-weight: bolder;
+   cursor: pointer;
+   
+  }.Links h2:hover{
+      font-size: 25px;
+   color: black;
+   font-weight: bolder;
+   cursor: pointer;
+  }label{
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+  }.logout:hover{
+    width: 120px;
+    height: 35px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+  }.logout{
+    width: 120px;
+    height: 35px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+  }
